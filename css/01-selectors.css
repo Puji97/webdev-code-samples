@@ -17,7 +17,7 @@ li {
   text-align: left;
 }
 
-/* id selector */
+/* id selector wouldnt have as many tag selectors*/ 
 #table {
   font-size: 1.2em;
 }
@@ -60,7 +60,7 @@ tr.second {
   color: var(--blue);
 }
 
-/* general sibling selector */
+/* general sibling selector * less commonly used ( the sibling selectors ) /
 .second ~ tr {
   color: var(--orange);
 }
